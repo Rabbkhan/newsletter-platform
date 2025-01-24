@@ -2,8 +2,9 @@
 import { GrowPlan, freePlan, scalePlan } from "@/app/configs/constants";
 import { PlanType } from "@/app/configs/types";
 import { ICONS } from "@/shared/utils/icons";
+import { Button } from "@nextui-org/react";
 // import { useUser } from "@clerk/nextjs";
-import { Button } from "@nextui-org/button";
+// import { Button } from "@nextui-org/Button";
 
 const PricingCard = ({ active }: { active: string }) => {
   //   const { user } = useUser();

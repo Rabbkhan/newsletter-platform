@@ -14,9 +14,6 @@ const nextConfig: NextConfig = {
       { hostname: "img.clerk.com" },
     ],
   },
-  experimental: {
-    lazyPostCSS: true, // Lazy load PostCSS
-  },
 };
 
 export default withAnalyzer(nextConfig);

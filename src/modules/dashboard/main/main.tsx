@@ -13,7 +13,7 @@ const Main = () => {
       </h1>
 
       <p className="opacity-[.7] text-sm">
-        THere &apos;s how your publication is doing
+        Here &apos;s how your publication is doing
       </p>
       <div className="w-full flex">
         <div className=" min-h-[88vh] pr-5">

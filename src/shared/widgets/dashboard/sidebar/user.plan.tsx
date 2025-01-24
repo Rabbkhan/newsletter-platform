@@ -1,5 +1,5 @@
 import { ICONS } from "@/shared/utils/icons";
-import { Slider } from "@nextui-org/slider";
+import { Slider } from "@nextui-org/react";
 
 const UserPlan = () => {
   return (
@@ -18,12 +18,9 @@ const UserPlan = () => {
         defaultValue={1}
         className="max-w-md"
       />
-      <h6 className="text-[#831743]">
-        ... of 1,00,000 added
-      </h6>
+      <h6 className="text-[#831743]">... of 1,00,000 added</h6>
     </div>
   );
 };
 
 export default UserPlan;
-

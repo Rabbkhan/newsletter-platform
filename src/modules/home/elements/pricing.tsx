@@ -1,7 +1,7 @@
 "use client";
 import PricingCard from "@/shared/components/cards/pricing";
-
 import { Button } from "@nextui-org/react";
+
 import { useState } from "react";
 
 const Pricing = () => {
